@@ -1,0 +1,141 @@
+body {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 2%;
+    text-align: center;
+}
+
+.text {
+    text-align: left;
+    padding: 1%;
+}
+
+.small {
+    width: 6rem;
+    height: 6rem;
+    margin-bottom: 1.3rem;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.quantity__minus, .quantity__plus {
+    display: block;
+    width: 22px;
+    height: 35px;
+    text-align: center;
+    margin: 0;
+    padding-top: 0.8%   ;
+    border: 2px solid #dee0ee;
+    text-decoration: none;
+    line-height: 23px;
+    color: #5f5f5f;
+}
+
+.quantity__minus:hover, .quantity__plus:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.quantity__minus {
+    border-radius: 50px 0 0 50px;
+    border-right: 0;
+}
+
+.quantity__plus {
+    border-radius: 0 50px 50px 0;
+    border-left: 0;
+}
+
+.quantity__input {
+    width: 32px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border-top: 2px solid #dee0ee;
+    border-bottom: 2px solid #dee0ee;
+    border-left: 0;
+    border-right: 0;
+}
+
+#div4 {
+    display: inline;
+    color: green;
+}
+
+.img1 {
+    width: 25rem;
+    height: 25rem;
+}
+
+.img3 {
+    width: 14rem;
+    height: 14rem;
+    margin-top: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+#btnClick, #btnClick2 {
+    border: 1px solid #dee0ee;
+    margin-right: 2rem;
+}
+
+
+#btnClick3 {
+    font-weight: bold;
+    border-radius: 3rem;
+    width: 8rem;
+}
+
+.pay {
+    margin-top: 4%;
+    align-items: center;
+}
+
+.main1, .main2 {
+    border: 2px solid rgb(223, 223, 223);
+    box-shadow: 0 2px 2px #ccc;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    padding: 1.2rem;
+    width: 32rem;
+}
+
+.main2 {
+    margin: 1%;
+    height: 11rem;
+}
+
+.main1 {
+    margin: 0.5% 0.8% 0.8% 0.5% ;
+    height: 22.7rem;
+}
+
+.text1 {
+    font-size:1.2rem;
+    background-color: rgba(255, 251, 251, 0.609);
+    line-height: 1.99rem;
+}
+
+.text2 {
+    background-color: rgba(255, 251, 251, 0.609);
+    line-height: 1rem;
+    padding: 1%;
+}
+
+@media screen and (max-width: 600px) {
+    .img1 {
+        width: 15rem;
+        height: 15rem;
+    }
+    body {
+        margin: 1rem;
+    }
+    .img3 {
+        margin-bottom: 1.5rem;
+    }
+}
